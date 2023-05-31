@@ -1,3 +1,44 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
 body{
     background-color: rgb(108, 142, 243);
+}
+
+div{
+    position: absolute;
+    background-color: rgb(104, 104, 252);
+    margin-top: 250px;
+    margin-left: 450px;
+    margin-right: 450px;
+    padding: 20px;
+    border: 1px solid rgb(65, 40, 230);
+    border-radius: 10px;
+}
+input{
+    padding: 5px;
+}
+#bnt{
+    margin-left: 24%;
+    background: rgb(26, 60, 146);
+    border: 1px solid black;
+    border-radius: 5px;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    transition: 0.2s;
+}
+#bnt:hover{
+    transition: 0.2s;
+    background: rgb(91, 247, 221);
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-left: 18.6%;
+    color: black;
+
+}
+
+h1{
+    color: white;
 }
